@@ -1,4 +1,4 @@
-name: Javascript arrayFlat
+name: Javascript arrayFlat CI
 
 on:
   push:

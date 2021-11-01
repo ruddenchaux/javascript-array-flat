@@ -1,5 +1,5 @@
 {
-  "name": "javascript-array-flat",
+  "name": "@ruddenchaux/javascript-array-flat",
   "version": "0.0.1",
   "description": "Javascript array flat",
   "main": "index.js",
@@ -45,6 +45,7 @@
     "release-it": "^14.11.6"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "registry": "https://npm.pkg.github.com",
+    "access": "public"
   }
 }

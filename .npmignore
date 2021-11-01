@@ -1,0 +1,9 @@
+tests/
+.github/
+.husky/
+scripts/
+.cz.json
+.eslintrc
+.prettierrc.json
+.release-it.json
+package-lock.json
