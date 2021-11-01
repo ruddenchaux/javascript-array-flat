@@ -3,7 +3,6 @@
   "version": "0.0.1",
   "description": "Javascript array flat",
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "lint": "eslint .",
     "lint:fix": "npm run lint -- --fix",
@@ -46,6 +45,6 @@
     "release-it": "^14.11.6"
   },
   "publishConfig": {
-    "registry":"https://npm.pkg.github.com"
+    "registry": "https://npm.pkg.github.com"
   }
 }
