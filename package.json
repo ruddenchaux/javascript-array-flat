@@ -1,0 +1,51 @@
+{
+  "name": "javascript-array-flat",
+  "version": "0.0.1",
+  "description": "Javascript array flat",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "npm run lint -- --fix",
+    "lint:ci": "npm run lint -- --quiet",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "test:ci": "npm test -- --ci",
+    "test:watch": "npm test -- --watchAll",
+    "test:coverage": "npm test -- --coverage",
+    "start": "node .",
+    "prepare-commit-msg-unix": "exec < /dev/tty && git cz --hook || true",
+    "prepare-commit-msg-win": "scripts/prepare-commit-msg",
+    "prepare": "husky install",
+    "release": "HUSKY=0 release-it --disable-metrics --ci"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ruddenchaux/javascript-array-flat.git"
+  },
+  "author": "Federico Dainelli",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ruddenchaux/javascript-array-flat/issues"
+  },
+  "homepage": "https://github.com/ruddenchaux/javascript-array-flat#readme",
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.16.0",
+    "@release-it/conventional-changelog": "^3.3.0",
+    "@types/jest": "^27.0.2",
+    "commitizen": "^4.2.4",
+    "cz-conventional-changelog": "^3.3.0",
+    "eslint": "^7.32.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-jest": "^25.2.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.1",
+    "husky": "^7.0.4",
+    "jest": "^27.3.1",
+    "prettier": "^2.4.1",
+    "release-it": "^14.11.6"
+  },
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com"
+  }
+}
