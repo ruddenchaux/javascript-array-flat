@@ -1,6 +1,12 @@
 # javascript-array-flat
 Javascript array flat library
 
+## Installation
+
+```
+npm install https://github.com/ruddenchaux/javascript-array-flat
+```
+
 ## Usage
 
 ```javascript
