@@ -1,3 +1,5 @@
+## [0.1.1](https://github.com/ruddenchaux/javascript-array-flat/compare/0.1.0...0.1.1) (2021-11-02)
+
 # 0.1.0 (2021-11-01)
 
 

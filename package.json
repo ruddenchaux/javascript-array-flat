@@ -1,6 +1,6 @@
 {
   "name": "@ruddenchaux/javascript-array-flat",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Javascript array flat",
   "main": "index.js",
   "scripts": {
